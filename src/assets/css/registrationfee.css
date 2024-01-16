@@ -1,0 +1,221 @@
+.regFee {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  margin-bottom: 6rem;
+  color: #3a3a3a;
+  /* background-color: #537ba8; */
+}
+.regFee sup{
+  color: red;
+}
+/* .regHead {
+  width: 80%;
+  margin: 4rem 0 0rem 0;
+} */
+.regHead h2 {
+  margin: 1rem 0;
+  text-align: center;
+  font-size: 35px;
+}
+.regData {
+  width: 80%;
+}
+.regDataField,
+/* .regDataTable {
+  width: 100%;
+} */
+.regDataField {
+  margin: 3rem 0;
+}
+/* table {
+  width: 100%;
+  border: 1px solid #eeeeee;
+  background: #4cc5b31b;
+} */
+/* thead {
+  background: #155b5b;
+  display: flex;
+  width: 100%;
+  color: #fff;
+  padding: (12px * 1.5) 0;
+} */
+
+/* tr {
+  display: flex;
+  width: 100%;
+  padding: (12px * 1.5) 0;
+  height: 3rem;
+  text-align: center;
+  line-height: 3rem; */
+
+/* td:nth-child(1) {
+  padding-left: 2rem;
+  text-align: left;
+} */
+
+/* td{
+  flex: 1 1 20%;
+  text-align: center;
+  color: black;
+}
+th {
+  flex: 1 1 20%;
+  text-align: center;
+  color: white;
+} */
+
+th {
+  text-transform: uppercase;
+}
+.table-heading {
+  text-align: left;
+  font-size: large;
+  font-weight: bold;
+}
+
+
+h3,
+h4 {
+  font-weight: normal;
+  color: black; 
+}
+h2 {
+  color: #000;
+}
+
+.regNotes {
+  color: #c01921;
+}
+.regNotes p {
+  margin: 0;
+  font-size: 20px;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+.payment-button a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+}
+.payment-button {
+  padding: 10px 20px;
+  border-radius: 25px;
+  border: none;
+  background-color: green;
+}
+.payment-button:hover {
+  background-color: #4caf50;
+}
+.register-button a {
+  text-decoration: none;
+  color: Black;
+  font-size: 20px;
+  font-weight: 600;
+}
+.register-button {
+  padding: 10px 20px;
+  border-radius: 25px;
+  border: none;
+  background-color: gold;
+}
+.register-button:hover {
+  background-color: goldenrod;
+}
+.url{
+  color: blue;
+}
+.button-29 a{
+  text-decoration: none;
+  color: white;
+}
+.button-29 {
+  align-items: center;
+  appearance: none;
+  background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+}
+
+.button-29:focus {
+  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.button-29:hover {
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button-29:active {
+  box-shadow: #3c4fe0 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+@media only screen and (max-width: 768px) {
+  .regFee {
+    width: 90%; /* Adjust as needed for smaller screens */
+  }
+
+  .regHead h2 {
+    font-size: 28px;
+  }
+
+  .regDataField {
+    margin: 2rem 0;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  th, td {
+    flex: 1 1 50%;
+    text-align: center;
+  }
+
+  .table-heading {
+    font-size: large;
+  }
+}
+
+.payment-text{
+  text-align: center;
+  color: blue;
+  margin-top: 4px;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-payment{
+  color: blue;
+}

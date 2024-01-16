@@ -1,0 +1,100 @@
+.awards {
+  background-color: #f5f5f5;
+  padding: 15em;
+  padding-top: 10em;
+  text-align: justify;
+}
+
+.awards-lists {
+  margin-top: 30px;
+}
+
+.awards-lists li {
+  list-style: none;
+  font-size: 16px;
+}
+
+.awards-lists ul {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.awards-submission {
+  margin-top: 30px;
+}
+
+.awards p {
+  font-size: 16px;
+  text-align: center;
+}
+
+.map-title{
+  text-align: center;
+  margin: 1em;
+  font-size: 1.5em;
+}
+.weather-section{
+  text-align: center;
+  margin: 2em;
+}
+.weather-section h1{
+  font-size: 2em;
+  padding: 1.8em;
+}
+
+.mapouter{
+  margin:30px;
+}
+
+.Places {
+  margin: 50px;
+}
+
+.images {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 80px;
+}
+
+.images img {
+  width: 300px;
+  height: 300px;
+  
+}
+.map-container {
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 56.25%; /* Aspect ratio for responsive design (height: 56.25% of width) */
+  height: 0;
+}
+
+.map-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.contact {
+  margin-top: 20px;
+  margin-left: 30px;
+}
+.heading{
+  text-align: center;
+  color:#12486B
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .images {
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+  }
+
+  .contact {
+    text-align: center;
+  }
+}

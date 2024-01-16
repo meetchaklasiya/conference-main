@@ -1,0 +1,301 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,700;1,100;1,900&display=swap");
+
+.main {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+  url("../videos/main-video.gif");
+  background-color: #005567;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 70% center;
+  width: 100%;
+  color: #fff;
+}
+@keyframes slideInUp {
+  0% {
+    transform: translateY(60%);
+    opacity: 0%;
+    -webkit-transform: translateY(60%);
+    -moz-transform: translateY(60%);
+    -ms-transform: translateY(60%);
+    -o-transform: translateY(60%);
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 100%;
+  }
+}
+h1,
+h2,
+h3,
+h4,
+p,
+li,
+.card,
+.cards,
+.tabs,
+small,
+tr {
+  animation: 1s ease-out 0s 1 slideInUp;
+  -webkit-animation: 1s ease-out 0s 1 slideInUp;
+}
+.main-text-container {
+  max-width: 75%;
+  margin: auto;
+  padding-top: 20px;
+}
+
+.main-heading {
+  font-family: "Roboto", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 900;
+  font-family: var(--font-family);
+  padding-top: 1.3em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.main-desc {
+  margin-top: 1rem;
+  font-size: clamp(15px, calc(0.9375rem + ((1vw - 3px) * 0.5)), 18px);
+  font-family: "Raleway", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 100px;
+  text-align: center;
+  color: rgb(203, 203, 203);
+}
+.heading-container {
+  padding: 5em;
+}
+
+.heading-container p {
+  font-family: "Roboto", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 900;
+  padding-top: 2.7em;
+  padding-left: 3.2em;
+  font-size: 75px;
+  align-items: center;
+  display: none;
+}
+.cards-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-bottom: 100px;
+  max-width: 90%;
+  margin: auto;
+  margin-top: 5rem;
+}
+.card {
+  min-height: 200px;
+  width: 170px;
+  background-color: #d9d9d9;
+  color: #000;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 15px;
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 20px;
+}
+.organized-by{
+  color: white;
+}
+.organized-by h3{
+  color: white;
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-weight: 900;
+}
+.logo-section-home{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3rem ;
+  margin-bottom: 4rem;
+  
+}
+
+.logo-section-home img{
+  object-fit: contain;
+  width:50%;
+  height: auto;
+}
+.logos-main{
+  max-width: 10vw;
+}
+
+@media (min-width: 500px) and (max-width: 600px) {
+  .main-text-container {
+    padding-top: 10%;
+  }
+  .logos-main{
+    max-width: 13vw;
+  }
+}
+@media (min-width: 600px) and (max-width: 750px) {
+  .main {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url('../videos/main-video.gif');
+    background-size: cover;
+    background-position: 80% center;
+    background-repeat: no-repeat;
+  }
+  .main-text-container {
+    padding-top: 15%;
+  }
+}
+
+@media (min-width: 750px) and (max-width: 1000px) {
+  .FirstSmallText {
+    font-weight: 900;
+    font-size: 10px;
+    margin: 0;
+
+    padding-top: 7.5em;
+    color: rgb(197, 197, 197);
+    font-family: "Raleway", "Roboto", "Segoe UI", Tahoma, Geneva, Verdana,
+      sans-serif;
+  }
+  .MainHeading1 {
+    font-weight: 900;
+    font-size: 35px;
+    font-family: "Roboto", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(201, 201, 201);
+    padding-top: 0.35em;
+  }
+  .main-text-container {
+    padding-top: 140px;
+    min-height: 460px;
+  }
+  .cards-container {
+    margin-top: 4rem;
+  }
+}
+
+@media (min-width: 1000px) {
+  .FirstSmallText {
+    font-weight: 900;
+    font-size: 21px;
+    margin: 0;
+    padding-top: 7.5em;
+    color: rgb(197, 197, 197);
+    font-family: "Raleway", "Roboto", "Segoe UI", Tahoma, Geneva, Verdana,
+      sans-serif;
+  }
+  .MainHeading1 {
+    font-weight: 900;
+    font-size: 46px;
+    font-family: "Roboto", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(201, 201, 201);
+    padding-top: 0.35em;
+  }
+  .heading-container {
+    padding-left: 1em;
+    font-size: 15px;
+  }
+  .heading-container p {
+    text-align: center;
+    display: block;
+  }
+  .main-text-container {
+    max-width: 50%;
+    padding-top: 100px;
+    margin: 0;
+    margin-left: 180px;
+  }
+  .main-heading {
+    max-width: 100%;
+    text-transform: uppercase;
+    text-align: left;
+  }
+  .main-desc {
+    margin-top: 1rem;
+    text-align: justify;
+  }
+  .cards-container {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 200px;
+    padding-bottom: 100px;
+  }
+}
+
+@media (min-width: 1250px) {
+  .main {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('../videos/main-video.gif');
+    background-color: #005567;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+  }
+  .MainHeading1 {
+    width: 80%;
+    margin: auto;
+    margin-top: 0.5em;
+    text-align: center;
+  }
+  .SecondSmallText {
+    padding: 0.5em 0;
+  }
+}
+.HeroSection {
+  text-align: center;
+  padding: 0.35em;
+}
+.FirstSmallText {
+  font-weight: 900;
+  font-size: 25px;
+  padding-top: 4.5em;
+  margin: 0;
+  color: rgb(197, 197, 197);
+  font-family: "Raleway", "Roboto", "Segoe UI", Tahoma, Geneva, Verdana,
+    sans-serif;
+}
+.MainHeading1 {
+  font-weight: 800;
+  /* font-size: clamp(30px, calc(1.875rem + ((1vw - 3.2px) * 4.5455)), 70px); */
+  font-size: 4rem;
+  min-height: 0vw;
+  margin-top: 4rem;
+  font-family: "Roboto", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #cde1ff;
+  padding: 0.35em;
+  text-transform: uppercase;
+}
+.heading-smallcase {
+  text-transform: lowercase;
+}
+.SecondSmallText {
+  font-weight: 900;
+  font-family:  "Roboto", "Segoe UI", Tahoma, Geneva, Verdana,
+    sans-serif;
+  font-size: 4rem;
+  color: #ffffff;
+  margin: 0;
+}
+
+.ThirdSmallText {
+  font-size: clamp(20px, calc(1.25rem + ((1vw - 3.2px) * 0.7353)), 25px);
+  color: #cde1ff;
+  padding-bottom: 2em;
+}
+
+
+@media (max-width: 480px) {
+  .logos-main{
+    max-width: 20vw;
+    margin-bottom: 2rem;
+  }
+  .logo-section-home {
+    gap: 1.3rem;
+  }
+  .MainHeading1{
+    font-size:30px ;
+  }
+  .SecondSmallText{
+    font-size: 36px;
+  }
+}

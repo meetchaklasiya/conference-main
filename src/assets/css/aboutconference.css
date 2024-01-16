@@ -1,0 +1,48 @@
+.about-container {
+  margin-top: 30px;
+  padding: 0 50px;
+  text-align: center;
+}
+.about-heading {
+  text-align: center;
+  
+}
+.about-subheading{
+  text-align: left;
+  font-size: 20px;
+  margin: 20px;
+}
+.about-para-container {
+  text-align: justify;
+}
+.about-para-container p {
+  font-size: 18px;
+  margin: 20px;
+}
+
+.areas{
+  margin-left:30px;
+  text-align: left;
+
+
+}
+.abstract-template{
+  padding: 10px 20px;
+  border-radius: 25px;
+  border: none;
+  background-color: #12486B;
+  color:white;
+}
+.form{
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.google-form{
+  padding: 10px 20px;
+  border-radius: 25px;
+  border: none;
+  background-color: white;
+  border-radius: 1px solid black;
+  color:#12486B;
+}

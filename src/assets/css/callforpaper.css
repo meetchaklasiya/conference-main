@@ -1,0 +1,95 @@
+.callforpaper-heading {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.text-container {
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 80px;
+  padding-left: 30px;
+}
+.text-container a{
+  color: blue;
+}
+
+.callforpaper-text {
+  font-size: 25px;
+  width: 50%;
+  margin: 0;
+  margin-left: 30px;
+  text-align: center;
+}
+
+.imp-dates{
+  padding-left:30px ;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.callforpaper-button a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+}
+.callforpaper-button {
+  padding: 10px 20px;
+  border-radius: 25px;
+  border: none;
+  background-color: #12486B;
+}
+.callforpaper-button:hover {
+  background-color: #0690ec;
+}
+.submission-text {
+  font-size: 25px;
+  text-align: center;
+}
+.mail-text {
+  font-size: 18px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.callforpaper-text a {
+  text-decoration: none;
+  font-size: 25px;
+  color: red;
+  font-weight: 600;
+}
+
+.callforpaper-text a:hover {
+  color: blue;
+}
+
+.callforpaper-heading-1 {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+th, td {
+  padding: 10px;
+  border-bottom: 1px solid #12486B;
+}
+
+th {
+  background-color: #12486B;
+}
+
+tr:hover {
+  background-color: #f5f5f5;
+}
