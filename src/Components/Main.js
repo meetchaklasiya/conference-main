@@ -35,6 +35,9 @@ export default function Main() {
       {/* <p>Green Hydrogen</p>
       </div> */}
       <div className="HeroSection">
+        <div id="pot">
+          <h2 className="date-extended">Date Extended for Abstract Submission (23 Jan 2024)</h2>
+        </div>
         <p className="MainHeading1">
           International Conference on Oil & Gas for Energy Security
           {/* </p> */}
@@ -52,7 +55,7 @@ export default function Main() {
         <section className="logo-section-home">
           <section className="organized-by">
             <p>Organized By</p>
-            <h3>Department of Petroleum Engineering</h3>
+            <h3 style={{marginBottom:'20px'}}>Department of Petroleum Engineering</h3>
             <img src={logo} />
             <h3>Pandit Deendayal Energy University</h3>
             <h3>Gandhinagar</h3>

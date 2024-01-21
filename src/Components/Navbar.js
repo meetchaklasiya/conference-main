@@ -239,17 +239,20 @@ export default function Navbar() {
                   </Link> */}
                   <Link to="/Keynote" className="nav-link">
                     
-                    Speakers
+                    Planary Speakers
+                  </Link>
+                  <Link to="/keynotespeakerpdeu" className="nav-link">
+                    Key Note Speaker
                   </Link>
                   <Link to="/sessions" className="nav-link">
                     Session-lead lectures
                   </Link>
-                  <Link to="/Presentors" className="nav-link">
-                    Oral Presentataions
+                  {/* <Link to="/Presentors" className="nav-link">
+                    Oral Presentaions
                   </Link>
                   <Link to="/OralPresentors" className="nav-link">
-                    Poster Presentataions
-                  </Link>
+                    Poster Presentaions
+                  </Link> */}
                 </div>
               </li>
             </li>
@@ -298,9 +301,38 @@ export default function Navbar() {
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/contact" className="nav-link">
-                CONTACT US
-              </Link>
+              {/* <div className="dropdown">
+                <button className="dropdown-button">
+                  For Authors
+                </button>
+                <div className="dropdown-content">
+                <Link to="/callforpapers" className="nav-link">
+                  CALL FOR PAPER
+                </Link>
+                <Link to="/registration" className="nav-link">
+                  REGISTRATION
+                </Link>
+                </div>
+              </div> */}
+              <li class="dropdown">
+                <div class="dropbtn">
+                  MORE
+                  <FontAwesomeIcon
+                    icon={faChevronDown}
+                    className="down-arrow-icon"
+                  />
+                </div>
+                <div class="dropdown-content">
+                  <Link to='/transportation' className="nav-link">TRANSPORTATION</Link>
+                  <Link to="/Accommodation" className="nav-link">
+                    ACCOMMODATION
+                  </Link>
+                  <Link to='/Awards' className="nav-link">PLACES TO VISIT</Link>
+                  <Link to="/contact" className="nav-link">
+                    CONTACT US
+                  </Link>
+                </div>
+              </li>
             </li>
           </ul>
         </div>

@@ -88,7 +88,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="made-by-encode">
-          <p>Made with love & expertise by Encode, Parth Shukla, Meet Chaklasiya, Daksh Joshi</p>
+          <p>Made with love & expertise by Meet Chaklasiya, Daksh Joshi, Encode</p>
       </div>
     </div>
   )

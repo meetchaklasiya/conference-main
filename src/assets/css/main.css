@@ -123,6 +123,10 @@ tr {
   max-width: 10vw;
 }
 
+.date-extended{
+  color: red;
+}
+
 @media (min-width: 500px) and (max-width: 600px) {
   .main-text-container {
     padding-top: 10%;

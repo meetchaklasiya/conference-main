@@ -2,6 +2,9 @@ import React from "react"
 import Navbar from "./Navbar"
 import Footer from "./Footer"
 import "../assets/css/callforpaper.css"
+import '../assets/css/main.css'
+import logo1 from '../assets/images/Logos/Supporting Organizations/image-10.jpg'
+import logo2 from '../assets/images/Logos/Supporting Organizations/image-11.jpg'
 
 export default function CallForPaper() {
   return (
@@ -26,58 +29,32 @@ export default function CallForPaper() {
       </div>
 
       <div>
-  <h1 className="callforpaper-heading">Advertisement in the Abstract Book</h1>
-  <p className="imp-dates">An Abstract Book will be published on this occasion. Advertisements are invited, for which the tariffs are:</p>
-  <table>
-    <thead>
-      <tr>
-        <th>S.No.</th>
-        <th>Category</th>
-        <th>Amount(INR)</th>
-      </tr>
-      <tr>
-        <td>1</td>
-        <td>Back Cover(color)</td>
-        <td>75000</td>
-      </tr>
-      <tr>
-        <td>2</td>
-        <td>Front Inside(color)</td>
-        <td>50000</td>
-      </tr>
-      <tr>
-        <td>3</td>
-        <td>Back inside(color)</td>
-        <td>40000</td>
-      </tr>
-      <tr>
-        <td>4</td>
-        <td>Full Page(color)</td>
-        <td>30000</td>
-      </tr>
-      <tr>
-        <td>5</td>
-        <td>Full Page (B&W)</td>
-        <td>25000</td>
-      </tr>
-      <tr>
-        <td>6</td>
-        <td>Half Page(color)</td>
-        <td>20000</td>
-      </tr>
-    </thead>
-  </table>
-</div>
+        <h1 className="callforpaper-heading">
+          Publication
+        </h1>
+        <section className="main-item" style={{margin:"30px 0"}}>
+          <section className="lg1">
+            <img src={logo1} />
+            <p style={{color:"black",margin:"0",textAlign:"center"}}>Impact Factor = 5.300</p>
+          </section>
+          <section >
+            <img src={logo2} className="lg2"/>
+          </section>
+        </section>
+
+      </div>
+      
+
 
       <p className="">
-       <h1 className="callforpaper-heading">Important Dates</h1> 
-       <div className="imp-dates">
-       <p>Call for Abstracts deadline: 23 Jan 2024</p>
-      <p>Acceptance notification: 25 Jan 2024</p>
-      <p>Early registration deadline: 30 Jan 2024</p>
-      <p>Regular registration deadline: 10 Feb 2024</p>
-      <p>Conference dates:  16 and 17 Feb 2024</p>
-       </div>
+        <h1 className="callforpaper-heading">Important Dates</h1>
+        <div className="imp-dates">
+          <p>Call for Abstracts deadline: 23 Jan 2024</p>
+          <p>Acceptance notification: 25 Jan 2024</p>
+          <p>Early registration deadline: 30 Jan 2024</p>
+          <p>Regular registration deadline: 10 Feb 2024</p>
+          <p>Conference dates:  16 and 17 Feb 2024</p>
+        </div>
 
       </p>
       <div className="button-container">

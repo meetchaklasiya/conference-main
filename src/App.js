@@ -24,6 +24,9 @@ import Planary from "./Pages/Planary"
 import SeesionLead from "./Pages/SessionLead"
 import OralPresentors from './Pages/OralPresentors'
 import PosterPresentors from './Pages/PosterPresentors'
+import Keynotespeakerpdeu from "./Components/keynotespeakerpdeu"
+import Accommodation from "./Components/Accommodation"
+import Transportation from "./Components/Transportation"
 
 function App() {
   return (
@@ -49,17 +52,21 @@ function App() {
       <Route exact path="/contact" element={<ContactPage />} />
       <Route exact path="/registration" element={<RegistrationFeePage />} />
       <Route exact path="/keynotespeakers" element={<Keynote />} />
+      <Route exact path="/keynotespeakerpdeu" element={<Keynotespeakerpdeu />} />
       <Route exact path="/callforpapers" element={<CallForPaper />} />
       <Route exact path="/news" element={<Awards />} />
       <Route exact path="/admin/updatepost" element={<UpdatePost />} />
       <Route exact path="/admin/editpost/:id" element={<EditPost />} />
       <Route exact path="/sponsorship" element={<Sponsorship />} />
       <Route exact path="/importantdates" element={<Dates />} />
+      <Route exact path='/Awards' element={<Awards />} />
+      <Route exact path="/Transportation" element={<Transportation />} />
       <Route exact path="/ICOGES" element={<ICOGES />} />
       <Route exact path="/Management" element={<Management />} />
       <Route exact path="/organizing" element={<Organizing />} />
       <Route exact path="/international" element={<International />} />
       <Route exact path="/national" element={<National />} />
+      <Route exact path="/Accommodation" element={<Accommodation />} />
       <Route exact path="/students" element={<Students />} />
       <Route exact path="/Planary" element={<Planary />} />
       <Route exact path="/Keynote" element={<Keynote />} />

@@ -1,7 +1,7 @@
 .pdeu-img-container {
   display: flex;
   justify-content: center;
-  margin-top: 80px;
+  margin-top: 40px;
 }
 
 .pdeu-img {
@@ -27,4 +27,18 @@
   font-size: 18px;
   text-align: justify;
   margin: 20px;
+}
+.collaborationwith{
+  height: 96px;
+    width: 380px;
+
+}
+@media (max-width:1000px) {
+  .pdeu-img{
+    height: auto;
+  }
+  .collaborationwith{
+    height: auto;
+    width: 280px;
+  }
 }

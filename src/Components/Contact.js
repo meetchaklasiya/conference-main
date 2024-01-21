@@ -1,8 +1,9 @@
 import "../assets/css/contact.css"
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
-import {faB} from "@fortawesome/free-solid-svg-icons"
-import {faWhatsapp} from "@fortawesome/free-brands-svg-icons"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faB } from "@fortawesome/free-solid-svg-icons"
+import { faWhatsapp } from "@fortawesome/free-brands-svg-icons"
 import ReactWhatsapp from "react-whatsapp"
+
 
 const Contact = () => {
   return (
@@ -16,7 +17,7 @@ const Contact = () => {
             <li>
               <p>Contacts: </p>
               <a className="url" href="mailto:icoges24@gmail.com">
-              icoges24@gmail.com
+                icoges24@gmail.com
               </a>
             </li>
             <li>
@@ -32,7 +33,7 @@ const Contact = () => {
                 achinta.bera@spt.pdpu.ac.in
               </a>
               <p>
-              Phone No. : <d href="tel:+917477593900">7477593900</d>
+                Phone No. : <d href="tel:+917477593900">7477593900</d>
               </p>
             </li>
             <li>
@@ -49,7 +50,7 @@ const Contact = () => {
               </a>
               <p>Phone No. +9180510 50067 </p>
             </li>
-            
+
           </ul>
         </div>
         {/* <ReactWhatsapp number="+917218511311" message="">

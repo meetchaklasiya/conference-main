@@ -51,7 +51,17 @@ const Committee = () => {
             <br />
             Dr. Paul Naveen
             <br />
-            SoET, PDEU
+            SoET, PDEU  
+          </div>
+          <div className="names">
+            <h4>CHAIRS</h4>
+            Dr. Uttam Kumar Bhui,
+            <br />
+            HOD PE, SOET, PDEU
+            <br />
+            <p></p>
+            Dr. Bhawanisingh Desai, <br />
+            Dean R & D, PDEU
           </div>
           <div className="names">
             <h4>TREASURERS</h4>

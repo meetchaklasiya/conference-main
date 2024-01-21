@@ -1,9 +1,9 @@
-import React, {useState, useEffect} from "react"
+import React, { useState, useEffect } from "react"
 import "../assets/css/Awards.css"
 import Footer from "./Footer"
 import Navbar from "./Navbar"
 import "../assets/css/Awards.css"
-import akshardham from '../assets/images/akshardham_temple.png'
+import akshardham from '../assets/images/akshardham.JPG'
 import dwarka from '../assets/images/dwarka.png'
 import gir from '../assets/images/git_national_park.png'
 import ranikivav from '../assets/images/rani_ki_vav.png'
@@ -38,15 +38,15 @@ const Awards = () => {
       <Navbar />
 
       <div className="Places">
-        <h1 className="heading">Tours</h1>
+        <h1 className="heading">Places to Visit</h1>
         <div className="images">
-          <img src={akshardham} alt="akshardham-temple"  className="image"/>
+          <img src={akshardham} alt="akshardham-temple" className="image" />
           <img src={ranikivav} alt="rani-ki-vav" className="image" />
-          <img src={unity} alt="statue-of-unity"  className="image"/>
+          <img src={unity} alt="statue-of-unity" className="image" />
           <img src={gir} alt="gir-national-park" className="image" />
           <img src={dwarka} alt="dwarka" />
         </div>
-        
+
       </div>
       {/* <div className="weather-section">
         <h1>Current Weather</h1>
@@ -62,21 +62,21 @@ const Awards = () => {
         <h1>Maps</h1>
       </div>
       <div className="mapouter ">
-      <div className="map-container">
-  <iframe
-    className="map-iframe"
-    src="https://maps.google.com/maps?q=Pandit%20Deendayal%20Energy%20University&t=&z=13&ie=UTF8&iwloc=&output=embed"
-    frameBorder="0"
-    scrolling="no"
-    marginHeight="0"
-    marginWidth="0"
-  />
-  {/* check */}
+        <div className="map-container">
+          <iframe
+            className="map-iframe"
+            src="https://maps.google.com/maps?q=Pandit%20Deendayal%20Energy%20University&t=&z=13&ie=UTF8&iwloc=&output=embed"
+            frameBorder="0"
+            scrolling="no"
+            marginHeight="0"
+            marginWidth="0"
+          />
+          {/* check */}
           <br />
           <style
             dangerouslySetInnerHTML={{
               __html:
-                ".mapouter{position:relative;text-align:right;height:900px;width:1500px;margin : auto;}",
+                ".mapouter{position:relative;text-align:right;height:auto;width:auto;margin : auto;}",
             }}
           />
           <style
@@ -88,16 +88,16 @@ const Awards = () => {
         </div>
       </div>
       <div className="contact">
-          <h1>Contact Us at</h1>
-          <p> <FaEnvelope /> icoges@pdpu.ac.in </p>
-          <div className="phone-number">
+        <h1>Contact Us at</h1>
+        <p> <FaEnvelope /> icoges@pdpu.ac.in </p>
+        <div className="phone-number">
 
           <p> <FaPhone /> +91 7477593900 </p>
           <p> +91 8051050067</p>
           <p> +919555578820</p>
-          </div>
-
         </div>
+
+      </div>
       <Footer />
     </>
   )

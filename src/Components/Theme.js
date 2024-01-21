@@ -8,11 +8,24 @@ export default function Theme() {
     <div>
       <Navbar />
       <div className="container">
-      <h1 className="themes-heading">Theme</h1>
-      <p className="selected-theme">The selected theme for the conference, <b>"Competencies and technology for a safe and long-lasting energy security,"</b> encapsulates the significant contribution made by our Oil and Gas community to the societies in which we reside and operate.</p>
-        </div>
-      <Footer />
+        <h1 className="themes-heading">Theme</h1>
+        <p className="selected-theme">The selected theme for the conference, <b>"Competencies and technology for a safe and long-lasting energy security,"</b> encapsulates the significant contribution made by our Oil and Gas community to the societies in which we reside and operate.</p>
       </div>
+      <div className="">
+        <h1 className="about-subheading">Thrust Areas</h1>
+        <ul className="areas">
+          <li>Drilling and Completion</li>
+          <li>Production/ Reservoir/ EOR/IOR/ Integrated Reservoir Management</li>
+          <li>Geosciences and Geophysics</li>
+          <li>Unconventional Reservoirs (Coalbed Methane, Shale, Gas Hydrates, and Tight oil)</li>
+          <li>Data Science and Artificial Intelligence</li>
+          <li>Energy Transition</li>
+          <li>Health, Safety and Environment</li>
+          <li style={{marginBottom:'50px'}}>Multidisciplinary topics (CCUS, Pipeline/Flow Assurance, City Gas Distribution, and Refinery)</li>
+        </ul>
+      </div>
+      <Footer />
+    </div>
     // <div style={{backgroundColor: "#f5f5f5"}}>
     //   <Navbar />
 

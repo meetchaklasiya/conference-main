@@ -42,23 +42,9 @@ const ICOGES = () => {
       </div>
         <div className="about-para-container">
         <h1 className="about-subheading">Topics</h1>
-          <p>Day 1: </p>
-          <p> The role of technology, regulation and data in accelerating oil and gas in the Energy mix.</p>
-          <p> Day 2: </p>
-          <p>Skills, concepts and experience towards an energy future, and the path ahead for exploration.</p>
-        </div>
-        <div className="">
-          <h1 className="about-subheading">Thrust Areas</h1>
-          <ul className="areas">
-            <li>Drilling and Completion</li>
-            <li>Production/ Reservoir/ EOR/IOR/ Integrated Reservoir Management</li>
-            <li>Geosciences and Geophysics</li>
-            <li>Unconventional Reservoirs (Coalbed Methane, Shale, Gas Hydrates, and Tight oil)</li>
-            <li>Data Science and Artificial Intelligence</li>
-            <li>Energy Transition</li>
-            <li>Health, Safety and Environment</li>
-            <li>Multidisciplinary topics (CCUS, Pipeline/Flow Assurance, City Gas Distribution, and Refinery)</li>
-          </ul>
+          <p><span style={{fontWeight:'bolder',color:'#12486B'}}>Day 1 : </span>The role of technology, regulation and data in accelerating oil and gas in the Energy mix.</p>
+          
+          <p><span style={{fontWeight:'bolder',color:'#12486B'}}>Day 2 : </span>Skills, concepts and experience towards an energy future, and the path ahead for exploration.</p>
         </div>
     </div>
             <Footer />

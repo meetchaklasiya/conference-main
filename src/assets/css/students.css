@@ -1,0 +1,45 @@
+.spe-img,.iadc-img,.seg-img,.fipi-img{
+    width: 250px;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+}
+
+.name-chapter{
+    font-weight: 900;
+    font-size: 20px;
+    color: black;
+    margin-top: 10px;
+}
+.px{
+    margin: 0 50px;
+}
+@media (max-width:1300px) {
+    .spe-img,.iadc-img,.seg-img,.fipi-img{
+        width: 200px;
+    }
+    .px{
+        margin: 0 50px;
+    }
+}
+
+@media (max-width:1100px){
+    .spe-img,.iadc-img,.seg-img,.fipi-img{
+        width: 130px;
+    }
+    .px{
+        margin: 0 50px;
+    }
+}
+@media (max-width:900px) {
+    .flex{
+        flex-direction: column;
+        
+    }
+    .spe-img,.iadc-img,.seg-img,.fipi-img{
+        width: 160px;
+    }
+}

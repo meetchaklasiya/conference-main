@@ -219,3 +219,11 @@ h2 {
 .text-payment{
   color: blue;
 }
+@media (max-width:600px) {
+  table {
+    width: 80%;
+  }
+  td{
+    font-size:10px;
+  }
+}

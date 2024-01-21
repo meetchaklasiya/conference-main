@@ -47,7 +47,7 @@
 }
 
 .Places {
-  margin: 50px;
+  margin: 0 50px;
 }
 
 .images {
@@ -58,9 +58,9 @@
 }
 
 .images img {
-  width: 300px;
+  /* width: 300px;
   height: 300px;
-  
+   */
 }
 .map-container {
   position: relative;
@@ -93,8 +93,14 @@
     align-items: center;
     gap:20px;
   }
-
+  .Places{
+    margin: 0;
+  }
   .contact {
     text-align: center;
+  }
+  .images img{
+    width: 360px;
+    height: auto;
   }
 }

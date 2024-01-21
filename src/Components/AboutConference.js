@@ -43,8 +43,8 @@ export default function AboutConference() {
       </div>
         <div className="about-para-container">
         <h1 className="about-subheading">Topics</h1>
-          <p>Day 1: </p>
-          <p> The role of technology, regulation and data in accelerating oil and gas in the Energy mix.</p>
+          {/* <p>Day 1: The role of technology, regulation and data in accelerating oil and gas in the Energy mix.</p>
+          <p> The role of technology, regulation and data in accelerating oil and gas in the Energy mix.</p> */}
           <p> Day 2: </p>
           <p>Skills, concepts and experience towards an energy future, and the path ahead for exploration.</p>
         </div>

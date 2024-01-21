@@ -12,6 +12,7 @@
   .sponsorship-table {
     padding-left: 30px; 
     padding-right: 30px; 
+    margin-top: 50px;
   }
   
   th, td {
@@ -21,7 +22,7 @@
   }
   
   th {
-    background-color: #012f12;
+    background-color: #12486B;
     color: #fff; 
   }
   
@@ -30,12 +31,38 @@
     /* max-height: 100px;
     overflow-y: auto; */
   }
-  
+  .speaker{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    object-position: top center;
+  }
+  .car{
+    /* justify-content: center;
+    align-items: center; */
+    margin-top: 30px;
+    margin-left: 50px;
+
+  }
+  .matcorr{
+    height: 150px;
+    width: 170px;
+    object-fit: cover;
+    object-position: top center;
+  }
+  .flex{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
   /* Media query for smaller screens */
   @media (max-width: 768px) {
     .sponsorship-container {
         padding: 15px;
         margin-bottom: 10px;
+    }
+    .flex{
+      flex-direction: column;
     }
 
   
@@ -50,6 +77,9 @@
         width: 100%;
         padding: 0 10px;
       
+    }
+    .flex{
+      flex-direction: column;
     }
     .sponsorship-heading{
       font-size: 20px;
@@ -80,9 +110,17 @@
     th, td {
       font-size: 12px;
     }
+    .flex{
+      flex-direction: column;
+    }
     .sponsorship-container{
       align-items: center;
       justify-content: center;
     }
     
+  }
+  @media (max-width: 900px) {
+    .flex{
+      flex-direction: column;
+    }
   }
