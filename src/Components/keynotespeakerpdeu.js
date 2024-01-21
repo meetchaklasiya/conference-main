@@ -85,7 +85,7 @@ export default function Keynotespeakerpdeu() {
                         // src="keynote-speakers/image-10.png"
                         src="keynote-speakers/Rk.png"
                         // alt="speaker"
-                        className="speaker-img-new"
+                        className="speaker-img"
                     />
                     <div className="speaker-information">
                         <h1>	Prof. Rakesh Kumar Vij </h1>
@@ -99,7 +99,7 @@ export default function Keynotespeakerpdeu() {
                         // src="keynote-speakers/image-10.png"
                         src="keynote-speakers/subhrata.png"
                         // alt="speaker"
-                        className="speaker-img-new"
+                        className="speaker-img"
                     />
                     <div className="speaker-information">
                         <h1>	Prof. Subrata Borgohain Gogoi </h1>
@@ -113,7 +113,7 @@ export default function Keynotespeakerpdeu() {
                         // src="keynote-speakers/image-10.png"
                         src="keynote-speakers/bhawani.png"
                         // alt="speaker"
-                        className="speaker-img-new"
+                        className="speaker-img"
                     />
                     <div className="speaker-information">
                         <h1>	Prof. Bhawanisingh Desai </h1>
@@ -127,7 +127,7 @@ export default function Keynotespeakerpdeu() {
                         // src="keynote-speakers/image-10.png"
                         src="keynote-speakers/samarth.png"
                         // alt="speaker"
-                        className="speaker-img-new"
+                        className="speaker-img"
                     />
                     <div className="speaker-information">
                         <h1>	Prof. Samarth Patwardhan </h1>

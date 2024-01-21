@@ -239,7 +239,7 @@ export default function Navbar() {
                   </Link> */}
                   <Link to="/Keynote" className="nav-link">
                     
-                    Planary Speakers
+                    Plenary Speakers
                   </Link>
                   <Link to="/keynotespeakerpdeu" className="nav-link">
                     Key Note Speaker
