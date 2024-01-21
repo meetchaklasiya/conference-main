@@ -1,7 +1,7 @@
 # Conference Website
 
 <!-- Developed by [Encode Web Team](https://github.com/Encode-PDEU) ([Preet Sojitra](https://github.com/Preet-Sojitra), [Parth Sood](https://github.com/psood708) and [Aniket Patel](https://github.com/Aniket-Patel-swg)) -->
-Developed by [Encode Web Team](https://github.com/Encode-PDEU) ([Preet Sojitra](https://github.com/Preet-Sojitra) , [Parth Sood](https://github.com/psood708), [Aniket Patel](https://github.com/Aniket-Patel-swg), [Dev Parikh](https://github.com/Dev79844), [Dharmi Patel](https://github.com/dharmi04) and [Bhagirath Patel](https://github.com/bhagirath-bhp))
+Developed by [Meet Chaklasiya](https://github.com/meetchaklasiya) [Encode Web Team](https://github.com/Encode-PDEU) ([Preet Sojitra](https://github.com/Preet-Sojitra) , [Parth Sood](https://github.com/psood708), [Aniket Patel](https://github.com/Aniket-Patel-swg), [Dev Parikh](https://github.com/Dev79844), [Dharmi Patel](https://github.com/dharmi04) and [Bhagirath Patel](https://github.com/bhagirath-bhp))
 
 # Folder Structure
 
