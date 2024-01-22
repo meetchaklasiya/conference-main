@@ -6,12 +6,29 @@ import image1 from '../assets/images/Sabarmati_Railway_Station.JPG'
 import image2 from '../assets/images/Hotel-Leela-and-railway-station-near-Mahatma-Mandir.-Nirmal.webp'
 import image3 from '../assets/images/gita-mandir-bus-9518820.webp'
 import image4 from '../assets/images/gandhinagar-bus.jpg'
+import image5 from '../assets/images/Sardar-Vallabhbhai-Patel-International-Airport.jpg'
 
 export default function Transportation() {
-    return (
-        <>
-            <Navbar />
-            <h1 className="about-heading">Transportation</h1>
+  return (
+    <>
+      <Navbar />
+      <h1 className="about-heading">Transportation</h1>
+      <div className="card-container">
+        <div className="cards">
+          <img
+            // src="keynote-speakers/image-10.png"
+            src={image5}
+            // alt="speaker"
+            className="speaker-img"
+          />
+          <div className="speaker-information">
+            <h1> Sardar Vallabhbhai Patel International Airport, Ahmedabad </h1>
+            <h4> 15 kms from PDEU
+            </h4>
+            {/* <p>Dean Placement</p> */}
+          </div>
+        </div>
+      </div>
       <div className="card-container">
         <div className="cards">
           <img
@@ -94,8 +111,8 @@ export default function Transportation() {
           </div>
         </div>
       </div>
-            <Footer />
-        </>
+      <Footer />
+    </>
 
-    )
+  )
 }
